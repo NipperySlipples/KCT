@@ -477,8 +477,7 @@ namespace KerbalConstructionTime
                         }
 
 
-                        //process the vessel in ScrapYard
-                        ScrapYardWrapper.ProcessVessel(KCT_GameStates.recoveredVessel.ExtractedPartNodes);
+                       
 
                         //reset the BP
                         KCT_GameStates.recoveredVessel.buildPoints = KCT_Utilities.GetBuildTime(KCT_GameStates.recoveredVessel.ExtractedPartNodes);
